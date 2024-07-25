@@ -1,0 +1,187 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f5f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2e7e1;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #6d4c41;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6d4c41;
+    font-size: 16px;
+}
+
+.hero {
+    background-image: url('nature-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #8d6e63;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cent {
+    width: 200px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #8d6e63;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.about-us {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8d6e63;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.map-container {
+    margin: 30px 0;
+}
+
+.ingredients {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.ingredients h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8d6e63;
+}
+
+.ingredient-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ingredient {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.ingredient img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ingredient h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #6d4c41;
+}
+
+.ingredient p {
+    font-size: 16px;
+    color: #555;
+}
+
+.order-form {
+    padding: 50px 20px;
+    background-color: #f2e7e1;
+    text-align: center;
+}
+
+.order-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8d6e63;
+}
+
+.order-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.order-form label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #6d4c41;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form input[type="submit"] {
+    background-color: #8d6e63;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2e7e1;
+    color: #6d4c41;
+    text-align: center;
+    padding: 20px;
+}
